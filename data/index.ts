@@ -1,4 +1,5 @@
 export const navItems = [
+  { name: "Home", link: "#home" },
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
   { name: "Testimonials", link: "#testimonials" },
@@ -72,66 +73,66 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
+    title: "Weather Application",
+    des: "The phrase “Check the weather all around the globe” means to look up or monitor weather conditions in various locations worldwide. This can be done using global weather services or apps that provide real-time updates on temperature, precipitation, wind, and other weather-related information for different regions.",
     img: "/p1.svg",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "/ui.earth.com",
+    link: "https://mak-weather.netlify.app/",
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
+    title: "Aceternity",
+    des: "The component library that I used to make this portfolio.",
     img: "/p2.svg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "/ui.yoom.com",
+    link: "https://ui.aceternity.com/",
   },
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
+    title: "AI Image",
     des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
     img: "/p3.svg",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "/ui.aiimg.com",
+    link: "https://github.com/maksoftwares",
   },
   {
     id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
+    title: "Planner Calendar",
+    des: "Plan you time ahead with the planner calendar..",
     img: "/p4.svg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "/ui.apple.com",
+    link: "https://ali-calender.netlify.app/",
   },
 ];
 
 export const testimonials = [
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+      "Collaborating with Ali was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Ali's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Ali is the ideal partner.",
     name: "Michael Johnson",
     title: "Director of AlphaStream Technologies",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+      "Collaborating with Ali was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Ali's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Ali is the ideal partner.",
     name: "Michael Johnson",
     title: "Director of AlphaStream Technologies",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+      "Collaborating with Ali was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Ali's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Ali is the ideal partner.",
     name: "Michael Johnson",
     title: "Director of AlphaStream Technologies",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+      "Collaborating with Ali was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Ali's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Ali is the ideal partner.",
     name: "Michael Johnson",
     title: "Director of AlphaStream Technologies",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+      "Collaborating with Ali was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Ali's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Ali is the ideal partner.",
     name: "Michael Johnson",
     title: "Director of AlphaStream Technologies",
   },
@@ -180,15 +181,15 @@ export const workExperience = [
   },
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+    title: "React Developer",
+    desc: "Designed and developed react app for a glass organization.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp2.svg",
   },
   {
     id: 3,
     title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
+    desc: "Led the dev of a react app for a client, from initial concept to deployment on customer's server.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp3.svg",
   },
@@ -204,14 +205,12 @@ export const workExperience = [
 export const socialMedia = [
   {
     id: 1,
+    link: "https://www.github.com/maksoftwares",
     img: "/git.svg",
   },
   {
-    id: 2,
-    img: "/twit.svg",
-  },
-  {
     id: 3,
+    link: "https://www.linkedin.com/in/maksoftwares",
     img: "/link.svg",
   },
 ];
